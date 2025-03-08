@@ -10,7 +10,7 @@ require("dotenv").config();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://bookstore-project-pied.vercel.app",
+    origin: "https://bookstore-project-mocha.vercel.app",
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
   })
